@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>css form</title>
+</head>
+
+<style>
+   body{
+       background: url(https://cdn.shopify.com/s/files/1/0100/6082/files/glacierbg.jpg?v=1613677492);
+       margin-left: 350px;
+       margin-right: 350px;
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   input {
+    display: block;
+    width:auto;
+    padding: auto;
+    margin:auto;
+   }
+
+   input,input::placeholder
+   {
+       font: 20px/1.5 sans-serif;
+   }
+
+   .regform{
+       text-align: center;
+       margin: 165px;
+       background-color:rgb(140,160,180);
+       padding: 20px; 
+   }
+
+   textarea{
+    resize: none;
+   }
+   #reg{
+       padding: 5px;
+   }
+
+   .sub{  
+       background-color:red;  
+       padding: 3px 91px ;
+       color:white;  
+       font-weight:bold;  
+       margin:auto;  
+       border-radius:5px;
+       font: 20px/1.5 sans-serif;
+   } 
+
+</style>
+
+<body>
+   <div class="regform">
+       
+       <div id="reg">
+           <input type="text"  placeholder="username"  >
+       </div>
+
+       <div id="reg">
+           <input type="email"  placeholder="email"  >
+       </div>
+
+       <div id="reg">
+           <input type="password" value="password" placeholder="password"  >
+       </div>
+
+       <div id="reg">
+           <input  type="text"  placeholder="confirm password" row="4" column="21" >
+       </div>
+
+       <div id="reg">
+           <select style="font-size:20px ;text-align: center;height: 35px; width: 255px;" >
+               <option>--Select--</option>
+               <option>Team Leader</option>
+               <option>Manager</option>
+               <option>Intern</option>
+           </select>
+       </div>
+
+       <div id="reg">
+        <textarea name="comment" placeholder="comment"  style="font-size:20px; height: 90px; width:250px;"></textarea> 
+       </div>
+
+       <div id="reg">
+           <input class="sub" type="submit" value="Submit" >
+       </div>
+
+   </div>
+
+</body>
+</html>

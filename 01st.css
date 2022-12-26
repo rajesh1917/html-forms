@@ -1,0 +1,46 @@
+  textarea 
+    {
+   resize: none;
+    }
+
+    input {
+    display: block;
+    width:auto;
+    padding: auto;
+    margin:auto;
+    }
+
+input,input::placeholder
+{
+    font: 20px/1.5 sans-serif;
+}
+
+    #reg{
+        padding: 5px;
+      
+        
+   
+    }
+
+    .regform
+    {
+        background-color: aqua;
+        margin : 180px 580px;
+    }
+
+    .sub{  
+        background-color:blue;  
+        padding: 5px 90px ;
+        color:white;  
+        font-weight:bold;  
+        margin:auto;  
+        border-radius:5px;
+        font: 20px/1.5 sans-serif;
+    } 
+    
+    .sel{
+        padding: 0px 37px ;
+        padding: 5px 57px ;
+        font: 20px/1.5 sans-serif;
+    }
+    

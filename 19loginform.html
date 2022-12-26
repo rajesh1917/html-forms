@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" href="D:\Web_Tech\HTML\Assignments\fontawesome-free-6.2.1-web\css\all.css">
+	<style>
+		body{
+			background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1480&t=st=1671533806~exp=1671534406~hmac=b07bbf30e74e200d4acfe306f7da1b0c41ca0218923e6f6d2116f9f40a304c67");
+            background-repeat:fixed;
+		}
+		#group
+		{
+			background: linear-gradient(45deg,orange,white,green);
+			margin:100px auto;
+			width:400px;
+			text-align: center;
+			height:650px;
+			padding:0px 50px 50px 50px;
+		}
+		.form-grp input[type="text"],
+		.form-grp input[type="password"],
+		.form-grp textarea,
+		.form-grp select
+		{
+          	border:none;
+          	outline:none;
+          	border-bottom: 2px solid white;
+          	background-color: transparent;
+          	color:blue;
+          	margin-bottom: 20px;
+          	height:50px;
+          	width:300px;
+		}
+		::placeholder
+		{
+			color:blue;
+		}
+		.form-grp input[type="submit"]
+		{
+			height:30px;
+          	width:100px;
+          	background-color: black;
+          	color: white;
+              border-radius: 20px;
+        }
+		.form-grp input[type="submit"]:hover
+		{
+			cursor: pointer;
+			color: blue;
+            
+		}
+		#icon
+		{
+			color: white;
+			font-size: 100px;
+			background-color:transparent;
+		}
+	</style>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+	<div id="group">
+        <div id="icon" class="form-grp">
+			<i class="fa fa-user-circle"></i>
+		</div>
+		<div class="form-grp">
+			<input type="text" placeholder="Enter Username">
+		</div>
+		<div class="form-grp">
+			<input type="text" placeholder="Enter Email">
+		</div>
+		<div class="form-grp">
+			<input type="password" placeholder="Enter Password">
+		</div>
+		<div class="form-grp">
+			<input type="password" placeholder="Enter Confirm Password">
+		</div>
+		<div class="form-grp">
+			<select>
+				<option>Select Designation</option>
+				<option style="color: black;">Team lead</option>
+				<option style="color: black;">Sr. S/w Engineer</option>
+			</select><br>
+		</div>
+		<div class="form-grp">
+			<textarea placeholder="Enter Description"></textarea>
+		</div>
+		<div class="form-grp">
+			<input type="submit">
+		</div>
+	</div>
+</body>
+</html>

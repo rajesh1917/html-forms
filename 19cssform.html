@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>css form</title>
+ </head>
+
+ <style>
+    body{
+       background: url(https://cdn.shopify.com/s/files/1/0100/6082/files/glacierbg.jpg?v=1613677492);
+       height: 100%; 
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+    textarea 
+    {
+        resize: none;
+        border: none;
+    }
+
+    input {
+        display: block;
+        width:auto;
+        padding: auto;
+        margin:auto;
+    }
+
+    input,input::placeholder
+    {
+        font: 20px/1.5 sans-serif;
+    }
+
+    #reg{
+        padding: 8px;
+    }
+
+    .regform
+    {
+        background: url(https://cdn.shopify.com/s/files/1/0100/6082/files/glacierbg.jpg?v=1613677492);
+        margin : 160px 550px;
+        text-align: center;
+    }
+
+    .sub{  
+        background-color:blue;  
+        padding: 5px 95px ;
+        color:white;  
+        font-weight:bold;  
+        margin:auto;  
+        border-radius:5px;
+        font: 20px/1.5 sans-serif;
+        
+    } 
+    
+    .sel{
+        padding: 5px 29px ;
+        text-align: center;
+        font: 20px/1.5 sans-serif;
+    }
+    
+ </style>
+
+ <body>
+    <div class="regform">
+        
+        <div id="reg">
+            <input type="text"  placeholder="username"  >
+        </div>
+
+        <div id="reg">
+            <input type="email"  placeholder="email"  >
+        </div>
+
+        <div id="reg">
+            <input type="password" value="password" placeholder="password"  >
+        </div>
+
+        <div id="reg">
+            <input  type="text"  placeholder="confirm password"  >
+        </div>
+
+        <div id="reg">
+            <select style="font-size:20px ;text-align: center;height: 35px; width: 255px;">
+                <option>--------Select--------</option>
+                <option>Team Leader</option>
+                <option>  Manager  </option>
+                <option>  Intern   </option>
+            </select>
+        </div>
+
+        <div id="reg">
+            <textarea name="comment" placeholder="comment"  style="font-size:20px; height: 90px; width:250px;"></textarea>  
+        </div>
+
+        <div id="reg" >
+            <input class="sub" type="submit" value="Submit" >
+        </div>
+
+    </div>
+
+ </body>
+ </html>
